@@ -36,7 +36,7 @@ This is real time and will keep updating but will only show 2 MB worth as the pu
 
 4. Close this screen with the 'X' button at the top right 
 
-5. To download the full log bundle of this application, click on 'Log Bundle'
+5. To download the full log bundle of this application, click on 'Log Bundles'
 
 .. figure:: img/k8sapps03.png
    :alt: K8s apps 03   
