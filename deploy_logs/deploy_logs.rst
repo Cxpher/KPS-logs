@@ -48,7 +48,7 @@ This is real time and will keep updating but will only show 2 MB worth as the pu
    :alt: K8s apps 03   
 |
 
-8. Select the relevant KPS Service Domain
+8. Select the relevant KPS Service Domain and click on 'Collect Logs' button
 
 .. figure:: img/k8sapps05.png
    :alt: K8s apps 03   
