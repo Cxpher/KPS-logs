@@ -36,7 +36,7 @@ This is real time and will keep updating but will only show 2 MB worth as the pu
 
 5. Close this screen with the 'X' button at the top right 
 
-6. To download the full log bundle of this application, click on 'Log Bundles'
+6. To download the full log bundle from the Service Domain, click on 'Log Bundles'
 
 .. figure:: img/k8sapps03.png
    :alt: K8s apps 03   
@@ -51,6 +51,12 @@ This is real time and will keep updating but will only show 2 MB worth as the pu
 8. Select the relevant KPS Service Domain and click on 'Collect Logs' button
 
 .. figure:: img/k8sapps05.png
+   :alt: K8s apps 03   
+|
+
+9. Select the relevant KPS Service Domain and click on 'Collect Logs' button
+
+.. figure:: img/k8sapps06.png
    :alt: K8s apps 03   
 |
 
