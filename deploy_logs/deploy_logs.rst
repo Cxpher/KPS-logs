@@ -30,6 +30,10 @@ Checking logs of applications deployed on a KPS Service Domain with KPS Cloud Ma
    :alt: K8s apps 01   
 |
 
+You will notice that this is tailing the logs of all containers in this application. 
+
+
+
   * Starts and ends with a lowercase alphanumeric character
   * Maximum length of 63 lowercase alphanumeric characters
   * Dash (-) and dot (.) characters are allowed. For example, my-servicedomain.contoso.com is a valid Service Domain name
