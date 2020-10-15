@@ -18,14 +18,17 @@ Checking logs of applications deployed on a KPS Service Domain with KPS Cloud Ma
 
 2. Switch to the project where you deployed the Woodkraft application via the drop down list
 
-3. Click Kubernetes Apps > Service Domains > + Service Domain
+3. Click Kubernetes Apps > Click on the Woodkraft application
 
-|
 .. figure:: img/k8sapps01.png
    :alt: K8s apps 01   
 |
 
-3. Name your Service Domain
+4. Click on 'View Real Time Logs' button
+
+.. figure:: img/k8sapps02.png
+   :alt: K8s apps 01   
+|
 
   * Starts and ends with a lowercase alphanumeric character
   * Maximum length of 63 lowercase alphanumeric characters
