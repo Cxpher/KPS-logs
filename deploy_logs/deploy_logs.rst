@@ -34,11 +34,23 @@ You will notice that this is tailing the logs of all containers in this applicat
 
 This is real time and will keep updating but will only show 2 MB worth as the purpose is to show the current logs.
 
-4. Close this screen with the 'X' button at the top right 
+5. Close this screen with the 'X' button at the top right 
 
-5. To download the full log bundle of this application, click on 'Log Bundles'
+6. To download the full log bundle of this application, click on 'Log Bundles'
 
 .. figure:: img/k8sapps03.png
+   :alt: K8s apps 03   
+|
+
+7. Click on 'Run Log Collector'
+
+.. figure:: img/k8sapps04.png
+   :alt: K8s apps 03   
+|
+
+8. Select the relevant KPS Service Domain
+
+.. figure:: img/k8sapps05.png
    :alt: K8s apps 03   
 |
 
