@@ -40,7 +40,7 @@ This is real time and will keep updating but will only show 2 MB worth as the pu
 
 .. figure:: img/k8sapps03.png
    :alt: K8s apps 03   
-
+|
 
   * Starts and ends with a lowercase alphanumeric character
   * Maximum length of 63 lowercase alphanumeric characters
