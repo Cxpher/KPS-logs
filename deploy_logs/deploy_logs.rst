@@ -1,4 +1,4 @@
-Deploy a Service Domain and add it to Karbon Platform Services (KPS)
+Check immediate logs of containers
 ====================================================================
 
 KPS is a Kubernetes based multi-cloud PaaS that enables rapid
@@ -6,94 +6,12 @@ development and deployment of microservices-based applications ranging
 from simple stateful containerized applications to complex AI, IoT and
 hybrid applications across any cloud.
 
-This tutorial will guide you through the deployment of a single node KPS
-Service Domain on a Nutanix cluster, power it on and register it with
-the KPS Cloud Management Portal (CMP).
-
-After creating the Service Domain VM, note the VM IP address and ID in
-the VM Details panel. You will need this information to add your Service
-Domain in the Karbon Platform Services management console Service
-Domains page.
+This tutorial will guide you to check the logs of applications deployed on a 
+Service Domain in KPS Cloud Management Portal (CMP).
 
 --------------
 
-Creating and deploying a KPS Service Domain
--------------------------------------------
-|
-1. Log on as an administrator to your cluster's web console through the
-   Chrome web browser.
-2. Click Home > VM, then click Create VM.
-
-|
-.. figure:: img/edge-vm-create1.png
-   :alt: VM create 01
-   
-   **Figure. Create VM Dialog Box 1**
-|    
-.. figure:: img/edge-vm-create2.png
-   :alt: VM create 02   
-
-   **Figure. Create VM Dialog Box 2**
-|
-The 'Create VM' dialog box appears. You might need to scroll down to see
-everything that is displayed here.
-
-3. Do the following in the indicated fields. You might require more memory and storage as determined by your applications.
-   
-  * Name: Enter a name for the VM
-  * Description (optional): Enter a description for the VM
-  * Use this VM as an agent VM: Do not select. Not used in this case
-  * vCPU(s): Enter the number of virtual CPUs to allocate to this VM. For Karbon Platform Services, enter 8
-  * Number of Cores per vCPU: Enter the number of cores assigned to each virtual CPU. For Karbon Platform Services, enter 1
-  * Memory: Enter the amount of memory (in GiBs) to allocate to this VM. For Karbon Platform Services, enter 16
-
-4. Click Add Disk to add the uploaded Karbon Platform Services image file.
-
-|    
-.. figure:: img/edge-vm-create2-add-disk.png
-   :alt: VM create 02   
-
-   **Figure. Add Disk Dialog**
-|
-
-  * Select Type > DISK
-  * Select Operation > Clone from Image Service
-  * Select Bus Type > SCSI
-  * Select the Image you uploaded in Uploading the Service Domain Image
-  * Keep the default Index selection
-  * Click Add
-
-|
-
-5. Click Add New Nic to assign the VM network interface to a vlan, then click Add.
-
-|
-.. figure:: img/edge-vm-create3.png
-   :alt: VM create 03   
-   
-   **Figure. Create VM Dialog Box 3**
-|
-
-6. Select Legacy BIOS to start the VM using legacy BIOS firmware. This choice is selected by default on AHV clusters supporting legacy or UEFI boot firmware.
-7. Click Save.
-
-The VM creation task progress appears in Tasks at the top of the web console::
-
-      Note: You might require more storage as determined by your applications. Before first power on of the Service Domain VM, you can increase (but not decrease) the VM disk size.
-      
-      When the VM creation task is completed (the VM is created successfully), select the new Service Domain VM in the Table view, scroll to the bottom of the VM page, and click Update.
-      
-      Scroll to the disk, click the pencil icon to edit the disk, and increase the disk Size, then click Update and Save.
-
-8. When the VM creation task is completed (the VM is created successfully), select the new Service Domain VM in the Table view, scroll to the bottom of the VM page, and Power On the VM.
-
-  * Note the VM IP address and ID in the VM Details panel. You will need this information to add your Service Domain in the Karbon Platform Services management console Service Domains page.
-
-9. If you are creating a multinode Service Domain, repeat these steps to create at least two more VMs for a minimum of three VMs. The additional VMs you create here can become nodes in a multinode Service Domain cluster, or remain unclustered individual/single node Service Domains.
-
---------------
-
-Registering the KPS Service Domain with KPS Cloud Management Portal (CMP)
+Checking logs of applications deployed on a KPS Service Domain with KPS Cloud Management Portal (CMP)
 -------------------------------------------
 |
 1. Log on to the cloud management console at https://karbon.nutanix.com/.
