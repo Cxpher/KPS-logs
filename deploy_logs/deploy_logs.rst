@@ -16,7 +16,9 @@ Checking logs of applications deployed on a KPS Service Domain with KPS Cloud Ma
 |
 1. Log on to the cloud management console at https://karbon.nutanix.com/.
 
-2. Click Infrastructure > Service Domains > + Service Domain
+2. Switch to the project where you deployed the Woodkraft application via the drop down list
+
+3. Click Kubernetes Apps > Service Domains > + Service Domain
 
 3. Name your Service Domain
 
