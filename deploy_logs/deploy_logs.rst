@@ -56,7 +56,7 @@ This is real time and will keep updating but will only show 2 MB worth as the pu
 
 9. Select the relevant KPS Service Domain and click on 'Collect Logs' button
 
-10. It will take a moment to generate the log bundle for the Service Domain. Once it's completed, select the Service Domain and click on the 'Download' button
+10. It will take a moment to generate the log bundle for the Service Domain. Once it's completed, select the Service Domain and click on the 'Download' button. This will download the logs to your client machine
 
 .. figure:: img/k8sapps06.png
    :alt: K8s apps 03   
