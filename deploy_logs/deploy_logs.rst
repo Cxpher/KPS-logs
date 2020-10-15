@@ -20,6 +20,11 @@ Checking logs of applications deployed on a KPS Service Domain with KPS Cloud Ma
 
 3. Click Kubernetes Apps > Service Domains > + Service Domain
 
+|
+.. figure:: img/k8sapps01.png
+   :alt: K8s apps 01   
+|
+
 3. Name your Service Domain
 
   * Starts and ends with a lowercase alphanumeric character
