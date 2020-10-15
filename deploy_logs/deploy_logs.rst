@@ -27,11 +27,19 @@ Checking logs of applications deployed on a KPS Service Domain with KPS Cloud Ma
 4. Click on 'View Real Time Logs' button
 
 .. figure:: img/k8sapps02.png
-   :alt: K8s apps 01   
+   :alt: K8s apps 02   
 |
 
 You will notice that this is tailing the logs of all containers in this application. 
 
+This is real time and will keep updating but will only show 2 MB worth as the purpose is to show the current logs.
+
+4. Close this screen with the 'X' button at the top right 
+
+5. To download the full log bundle of this application, click on 'Log Bundle'
+
+.. figure:: img/k8sapps03.png
+   :alt: K8s apps 03   
 
 
   * Starts and ends with a lowercase alphanumeric character
