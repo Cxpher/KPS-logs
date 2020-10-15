@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'KPS_logs'
+project = 'KPS logs'
 copyright = '2020, Sean Lingham'
 author = 'Sean Lingham'
 
 # The full version, including alpha/beta/rc tags
-release = '0.01'
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
